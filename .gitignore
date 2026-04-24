@@ -32,3 +32,10 @@ SQLiteCpp_example1
 SQLiteCpp_tests
 
 !FindSQLiteCpp.cmake
+
+# wyvrnpm-generated — do not commit
+/build/
+/wyvrn_internal/
+/wyvrn.lock
+/CMakePresets.json
+/CMakeUserPresets.json
