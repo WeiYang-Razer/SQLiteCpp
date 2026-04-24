@@ -1,0 +1,24 @@
+{
+  "name": "SQLiteCpp",
+  "version": "3.3.3.0",
+  "schemaVersion": 2,
+  "kind": "StaticLib",
+  "description": "TODO: one-line description of SQLiteCpp",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-DSQLITECPP_RUN_CPPLINT=OFF",
+      "-DSQLITECPP_RUN_CPPCHECK=OFF",
+      "-DSQLITECPP_BUILD_TESTS=OFF",
+      "-DSQLITECPP_BUILD_EXAMPLES=OFF"
+    ],
+    "installDir": "install"
+  }
+}
